@@ -1,0 +1,36 @@
+p {
+    font-size: 16px;
+    
+}
+
+h3{
+    font-size: 45px;
+    padding: 20px;
+}
+
+li{
+    padding: 10px;
+}
+
+
+.icon>svg{
+    fill: white;
+    height: 20px;
+    width: auto;
+    
+}
+
+.icon_2>svg{
+    fill: white;
+    height: 25px;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    height: 50px;
+    font-size: 16px;
+}

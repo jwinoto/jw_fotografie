@@ -1,0 +1,61 @@
+h2{
+    font-size: 45px;
+    padding: 20px;
+}
+
+i{
+    font-size: 45px;
+}
+
+.img-fluid{
+    border: solid 2px black;   
+}
+
+img:hover{
+    opacity: 70%;
+}
+
+.btn{
+    padding: 15px;
+    width: auto;
+}
+
+
+
+
+p{
+    font-size: 16px;
+    color: white;
+    
+}
+
+li{
+    padding: 10px;
+}
+
+.footer{
+    height: 50px;
+    
+    font-size: 16px;
+}
+
+.icon>svg{
+    fill: white;
+    height: 20px;
+    width: auto;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon_2>svg{
+    fill: white;
+    height: 25px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+    
