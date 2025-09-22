@@ -5,26 +5,23 @@ h2{
 
 
 
-.img-fluid{
-    border: solid 2px black;   
+
+
+img{
+    border: solid 2px black;  
+    height: 300px;
+    width: 300px;
 }
 
 img:hover{
     opacity: 70%;
 }
 
-.btn{
-    padding: 15px;
-    width: auto;
-}
-
-
-
 
 p{
     font-size: 16px;
-    color: white;
-    
+    color: black;
+    margin: 10px;
 }
 
 li{
@@ -33,7 +30,7 @@ li{
 
 .footer{
     height: 50px;
-    
+    color: black;
     font-size: 16px;
 }
 
@@ -57,3 +54,14 @@ a {
     text-decoration: none;
 }
     
+nav{
+    height: 50px;
+}
+
+main{
+    min-height: 80vh;
+}
+
+body {
+    max-height: 100vh;
+}

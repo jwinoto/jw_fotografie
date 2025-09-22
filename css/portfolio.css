@@ -1,29 +1,22 @@
-h2{
-    font-size: 45px;
-    padding: 20px;
-}
 
 h4{
-    padding: 10px;
+    padding-top: 0;
+    margin-top: 0;
     text-align: center;
     color: white;
     font-family: Arial;
     font-size: 30px;
 }
 
-h5{
-    padding: 5px;
-    text-align: center;
-    color: white;
-}
 
-.img-fluid{
-    border: solid 2px black;   
+
+img{
+    height: 300px;
 }
 
 p{
     font-size: 16px;
-    color: white;
+    color: black;  
     
 }
 
@@ -60,8 +53,17 @@ a {
     
 
 
-#my_nav :hover{
-    color: black;
+body {
+    height: 100vh;
+    background-color: black;
+}
 
-}   
+nav{
+    height: 50px;
+    z-index: 1000;
+}
 
+main{
+    min-height: 80vh;
+    align-items: center;
+}
