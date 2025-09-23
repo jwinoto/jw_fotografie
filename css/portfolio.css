@@ -10,8 +10,9 @@ h4{
 
 
 
-img{
-    height: 350px;
+img {
+    width: 50%;
+    height: auto;
 }
 
 p{
@@ -70,6 +71,11 @@ main{
 
 @media screen and (max-width: 600px) {
     img {
-        height: 200px;
+        width: 70%;
+        height: auto;
+    }
+
+    nav{
+        height: 55px;
     }
 }
